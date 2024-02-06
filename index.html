@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header design -->
+    <header>
+        <h2 class="logo">Portfolio.</h2>
+        <div class="hamberger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Home section design -->
+    <section class="home" id="home">
+        <div class="icons">
+            <a href="https://www.facebook.com/debottam.ghosh.393?mibextid=2JQ9oc" target="_blank"><i class="fa_brands"><ion-icon name="logo-facebook"></ion-icon></i></a>
+            <a href="https://twitter.com/DebottamGhosh18" target="_blank"><i class="fa_brands" ><ion-icon name="logo-twitter"></ion-icon></i></a>
+            <a href="https://www.linkedin.com/in/debottam-ghosh-8abba9233/" target="_blank"><i class="fa_brands"><ion-icon name="logo-linkedin"></ion-icon></i></a>
+            <a href="https://github.com/Debottam06" target="_blank"><i class="fa_brands" ><ion-icon name="logo-github"></ion-icon></i></a>
+        </div>
+        <div class="home-content">
+            <h3>Hi! It's Me</h3> 
+            <h1>Debottam Ghosh</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim esse, quia earum harum officia voluptates nemo facere labore tempora aperiam alias, distinctio assumenda cum.</p>
+            <div class="buttons">
+                <a href="#contact" class="box box1">Hire Me</a>
+                <a href="https://wa.me/+917501787005" target="_blank" class="box box1">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="dp.png" alt="">
+        </div>
+    </section>
+    <!-- About section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate reiciendis tenetur adipisci deserunt. Alias maxime eius vitae quod facere accusantium, laboriosam amet expedita exercitationem, consectetur laborum reprehenderit. Cupiditate nesciunt natus quas culpa.</p>
+            <div class="buttons">
+                <a href="https://drive.google.com/file/d/1HM5Nbc7wTobRrYDBcsSGmQnVEAtcYyLx/view?usp=sharing" target="_blank" class="box box1">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- Education section design -->
+    <section class="education" id="education">
+        <div class="title">
+            <h1>Education</h1>
+        </div>
+        <div class="timeline">
+            <div class="checkpoints">
+                <h2>Secondary Education</h2>
+                <h4>Bagnan High School</h4>
+                <p>2015 - 2017</p>
+            </div>
+            <div class="checkpoints">
+                <h2>Higher Secondary Education</h2>
+                <h4>Bagnan High School</h4>
+                <p>2017 - 2019</p>
+            </div>
+            <div class="checkpoints">
+                <h2>Bachelor of Technology (B.Tech) in Computer Science and Engineering</h2>
+                <h4>Ramkrishna Mahato Government Engineering College,Purulia</h4>
+                <p>2021</p>
+            </div>
+        </div>
+    </section>
+    <!-- Skill section design -->
+    <section class="skills" id="skills">
+        <div class="title">
+            <h1>My <span>Skills</span></h1>
+        </div>
+        <div class="skills-section">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="80%" style="max-width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Javascript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="75%" style="max-width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">React</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name"  required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number"  required>
+                <input type="text" placeholder="Email Subject"  required>
+            </div>
+            <textarea name="" id="" cols="20" rows="10" placeholder="Your Message"  required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- Footer  design-->
+    <footer>
+       <div class="footer-text">
+        <p>Copyright © 2024 by Debottam | All rights Reserved.</p>
+       </div> 
+       <div class="footer-iconTop">
+        <a href="#home"><i><ion-icon name="arrow-up-outline"></ion-icon></i></a>
+       </div>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
